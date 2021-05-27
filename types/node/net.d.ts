@@ -87,6 +87,7 @@ declare module 'net' {
         readonly destroyed: boolean;
         readonly localAddress: string;
         readonly localPort: number;
+        readonly pending: boolean;
         readonly remoteAddress?: string;
         readonly remoteFamily?: string;
         readonly remotePort?: number;
